@@ -58,7 +58,7 @@ function Home() {
               <h1 className="text-light display-4 px-4 px-md-5">
                 Presis Feilsøking, Rask Løsning
               </h1>
-              <Nav.Link as={Link} to="/troubleshoot">
+              <Nav.Link as={Link} to="/feilsøking">
                 <button className="btn btn-info text-light p-3 w-75 text-end px-4">
                   Mer om Feilsøking
                   <span>
