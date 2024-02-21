@@ -8,7 +8,6 @@ function Tuning() {
     <main id="tuning">
       <section
         id="tuningInfo"
-        className="d-flex justify-content-center align-content-center"
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/images/2150635401.jpg)`,
         }}>
