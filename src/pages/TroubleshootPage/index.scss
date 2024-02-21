@@ -1,0 +1,22 @@
+#tuning #troubleshoot {
+  min-height: 34rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 30%;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+#tuning #troubleshoot #content {
+  height: fit-content;
+  max-width: 40rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#tuning #troubleshoot #content li {
+  margin: 0.5rem 0;
+}
