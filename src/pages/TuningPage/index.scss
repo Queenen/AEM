@@ -1,0 +1,15 @@
+#tuning #tuningInfo {
+  min-height: 34rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 30%;
+  background-size: cover;
+  position: relative;
+}
+
+#tuning #tuningInfo #content {
+  text-align: left;
+  height: fit-content;
+  max-width: 40rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
