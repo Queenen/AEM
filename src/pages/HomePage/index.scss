@@ -1,0 +1,60 @@
+#home #tuning,
+#home #troubleshoot {
+  height: 20rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 30%;
+  position: relative;
+}
+
+#home #tuning #overlay,
+#home #troubleshoot #overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home #tuning #content,
+#home #roubleshoot #content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+#home #tuning #content h1,
+#home #troubleshoot #content h1 {
+  position: absolute;
+  bottom: 7rem;
+  width: 100%;
+  text-align: center;
+}
+
+#home #tuning #content .btn {
+  position: absolute;
+  left: 0;
+  bottom: 2rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  max-width: 25rem;
+}
+
+#home #troubleshoot #content .btn {
+  position: absolute;
+  right: 0;
+  bottom: 2rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  max-width: 25rem;
+}
+
+#home #tuneCalc h1 {
+  font-family: Poppins, sans-serif;
+}
