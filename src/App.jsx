@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/HomePage/";
 import Tuning from "./pages/TuningPage/";
+import Troubleshoot from "./pages/TroubleshootPage/";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/global.css";
 import "./styles/global.scss";
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tuning" element={<Tuning />} />
+          <Route path="/feilsøking" element={<Troubleshoot />} />
         </Routes>
         <Footer />
       </>
