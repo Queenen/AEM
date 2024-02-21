@@ -1,0 +1,44 @@
+// Global styling
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto Condensed, sans-serif !important;
+}
+
+#logo {
+  height: 50px;
+  width: 80px;
+}
+
+.navLink:hover,
+.dashedUnderline {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+// Custom Color Scheme
+$primary: #110f28;
+$secondary: #0a0918;
+$success: #28a745;
+$info: #ff0000;
+$light: whitesmoke;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import component styles
+@import "../components/Header";
+@import "../components/Footer";
+@import "../components/Button";
+
+// Import page styling
+@import "../pages/HomePage";
+@import "../pages/ContactPage";
+@import "../pages/PriceListPage";
+@import "../pages/PrivacyPage";
+@import "../pages/TermsOfUsePage";
+@import "../pages/TroubleshootPage";
+@import "../pages/TuningPage";
