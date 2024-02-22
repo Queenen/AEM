@@ -7,6 +7,16 @@ function Footer() {
     <footer className="p-4 p-lg-5 bg-primary text-light d-flex justify-content-center justify-content-between justify-content-md-evenly">
       <ul className="list-unstyled small lh-lg m-0">
         <li disabled className="fw-bold fs-6 dashedUnderline mb-4">
+          Om AEM
+        </li>
+        <li>
+          <Nav.Link as={Link} to="/AEM">
+            Om AEM
+          </Nav.Link>
+        </li>
+      </ul>
+      <ul className="list-unstyled small lh-lg m-0">
+        <li disabled className="fw-bold fs-6 dashedUnderline mb-4">
           Få Hjelp
         </li>
         <li>
