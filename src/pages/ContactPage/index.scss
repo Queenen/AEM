@@ -1,0 +1,14 @@
+#callCard,
+#emailCard {
+  max-width: 22rem;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1200px) {
+  #callCard,
+  #emailCard {
+    max-width: 30rem;
+  }
+}
