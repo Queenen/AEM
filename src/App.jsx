@@ -6,6 +6,7 @@ import Home from "./pages/HomePage/";
 import Tuning from "./pages/TuningPage/";
 import Troubleshoot from "./pages/TroubleshootPage/";
 import Contact from "./pages/ContactPage/";
+import AEM from "./pages/AboutPage/";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/global.css";
 import "./styles/global.scss";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/tuning" element={<Tuning />} />
           <Route path="/feilsøking" element={<Troubleshoot />} />
           <Route path="/kontakt" element={<Contact />} />
+          <Route path="/AEM" element={<AEM />} />
         </Routes>
         <Footer />
       </>
