@@ -7,6 +7,7 @@ import Tuning from "./pages/TuningPage/";
 import Troubleshoot from "./pages/TroubleshootPage/";
 import Contact from "./pages/ContactPage/";
 import AEM from "./pages/AboutPage/";
+import PriceList from "./pages/PriceListPage/";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/global.css";
 import "./styles/global.scss";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/feilsøking" element={<Troubleshoot />} />
           <Route path="/kontakt" element={<Contact />} />
           <Route path="/AEM" element={<AEM />} />
+          <Route path="/prisliste" element={<PriceList />} />
         </Routes>
         <Footer />
       </>

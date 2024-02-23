@@ -1,0 +1,16 @@
+#priceListImg {
+    height: 17rem;
+    width: 100%;
+    object-fit: cover;
+};
+
+#priceList #tuningFact #content {
+    max-width: 35rem;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    #priceListImg {
+        height: 100%;
+    }; 
+ }
