@@ -32,20 +32,17 @@ function Home() {
         </div>
 
         <div className="col-lg-12 order-lg-1">
-          <a
-            href="https://www.tuninggruppenvestland.no/tuning-kalkulator/"
-            target="_blank"
-            rel="noreferrer">
+        <Nav.Link as={Link} to="/kontakt">
             <section
               id="tuneCalc"
               className="bg-secondary px-4 px-md-5 py-5 text-center">
               <h1 className="fs-3 text-light fw-light">
-                Beregn potensialet til bilen din
+                Sjekk potensialet til bilen din, ta kontakt
                 <span className="text-decoration-underline ms-2">her</span>
                 <FontAwesomeIcon className="ms-3" icon={faCar} />
               </h1>
             </section>
-          </a>
+            </Nav.Link>
         </div>
         <div className="col-lg-6 order-lg-3">
           <section
