@@ -20,8 +20,8 @@ function Footer() {
           Kontakt
         </li>
         <li className="d-flex flex-column">
-            <p><span className="fw-bold">Tlf:</span> +47 941 73 799</p>
-            <p><span className="fw-bold">Epost:</span> andersen.elektromekaniske<br className="d-sm-none"/>@gmail.com</p>
+            <a href="tel:+4794173799" className="text-light"><span className="fw-bold">Tlf:</span> +47 941 73 799</a>
+            <a href="mailto:andersen.elektromekaniske@gmail.com" className="text-light"><span className="fw-bold">Epost:</span> andersen.elektromekaniske<br className="d-sm-none"/>@gmail.com</a>
         </li>
       </ul>
       <div className="d-none d-sm-block d-flex flex-column col-sm-2 text-end pe-sm-4 pe-lg-5">
