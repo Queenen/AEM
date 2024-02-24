@@ -9,10 +9,10 @@ function priceList(){
     <div className="flex-grow-1 col-md-6 col-lg-4 order-md-2">
         <img src={`${process.env.PUBLIC_URL}/images/workshop.png`} alt="man standing inside a workshop" id="priceListImg" />
         </div>
-        <section id="prices" className="bg-secondary p-4 p-sm-5 flex-grow-1 col-md-auto d-flex flex-column align-items-md-center justify-content-md-center">
-            <h1 className="display-5 mb-0 text-light dashedUnderline" style={{ textUnderlineOffset: "20px" }}>Prisliste <span><FontAwesomeIcon icon={faCoins} size="1x" className="ms-3" /></span></h1>
+        <section id="prices" className="bg-secondary p-4 p-sm-5 flex-grow-1 col-md-auto d-flex flex-column justify-content-md-center">
+            <h1 className="display-5 text-light dashedUnderline" style={{ textUnderlineOffset: "20px" }}>Prisliste <span><FontAwesomeIcon icon={faCoins} size="1x" className="ms-3" /></span></h1>
             
-            <table class="table border border-1 mt-4 mt-sm-5 order-md-1">
+            <table class="table border border-1 mt-5 order-md-1">
   <tbody>
     <tr>
       <td className="bg-primary text-light fs-5 p-3">Diagnostisering</td>
