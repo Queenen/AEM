@@ -8,14 +8,14 @@ function Troubleshoot() {
       <section
         id="troubleshoot"
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}/images/car-dashboard-wheel-close-up.jpg)`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/images/speedometer-1249610_1280.jpg)`,
         }}>
         <div id="content">
           <div className="p-4 p-md-5 pb-2 pb-md-4">
             <h1 className="text-light display-5 dashedUnderline" style={{ textUnderlineOffset: "20px" }}>
               Feilsøking
               <span className="ms-3">
-                <FontAwesomeIcon icon={faScrewdriverWrench} size="xs" />
+                <FontAwesomeIcon icon={faScrewdriverWrench} size="xs" style={{marginBottom:"-5px"}} />
               </span>
             </h1>
           </div>
@@ -23,31 +23,31 @@ function Troubleshoot() {
             <p>
               Feilsøking av en bil med fokus på feilkoder innebærer å bruke en
               OBD-II skanner for å lese av diagnostiske feilkoder fra bilens
-              datamaskin. Dette gir en indikasjon på bilens problemer. Prosessen
+              system. Dette gir en indikasjon på bilens problemer. Prosessen
               omfatter:
             </p>
             <ol className="ps-3 mt-4">
               <li>
-                <span className="fw-bold">Koble til OBD-II Skanner:</span> Fest
-                skanneren til bilens OBD-II port og les av feilkodene.
+                <span className="fw-bold">Koble til OBD-II Skanner:</span> Feste
+                skanneren til bilens OBD-II port og lese av feilkodene.
               </li>
               <li>
-                <span className="fw-bold">Tolk Feilkoder:</span> Bruk koden(e)
+                <span className="fw-bold">Tolke Feilkoder:</span> Bruke koden(e)
                 for å identifisere spesifikke problemer eller feilområder.
               </li>
               <li>
-                <span className="fw-bold">Undersøkelse:</span> Utfør en
+                <span className="fw-bold">Undersøkelse:</span> Utføre en
                 detaljert inspeksjon basert på feilkodene for å finne den
                 underliggende årsaken.
               </li>
               <li>
-                <span className="fw-bold">Reparasjon:</span> Gjør nødvendige
+                <span className="fw-bold">Reparasjon:</span> Gjøre nødvendige
                 reparasjoner eller justeringer for å rette opp i problemene som
                 feilkodene indikerer.
               </li>
               <li>
                 <span className="fw-bold">Tilbakestille Feilkoder:</span> Etter
-                reparasjon, tilbakestille feilkodene og kjør en test for å sikre
+                reparasjonen, tilbakestille feilkodene og kjøre en test for å sikre
                 at problemet er løst.
               </li>
             </ol>

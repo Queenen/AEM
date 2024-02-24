@@ -48,7 +48,7 @@ function Home() {
           <section
             id="troubleshoot"
             style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL}/images/car-dashboard-wheel-close-up.jpg)`,
+              backgroundImage: `url(${process.env.PUBLIC_URL}/images/speedometer-1249610_1280.jpg)`,
             }}>
             <div id="overlay"></div>
             <div id="content">

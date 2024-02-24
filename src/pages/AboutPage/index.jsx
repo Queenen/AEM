@@ -17,7 +17,7 @@ function AEM() {
           className="d-sm-flex align-items-sm-stretch bg-secondary justify-content-envely ">
           <div className="order-2 col-sm-6 col-lg-auto flex-grow-1 p-5 pt-0 pb-3 pb-sm-5 bg-secondary">
             <img
-              src={`${process.env.PUBLIC_URL}/images/andersen.png`}
+              src={`${process.env.PUBLIC_URL}/images/andersen.jpg`}
               alt="profile photography"
               id="profileImg"
             />
@@ -53,12 +53,12 @@ function AEM() {
                 </span>
               </h1>
               <p className="mb-0">
-                Jimmy Nicklas Andersen grunnla Andersen Elektro Mekaniske (AEM)
-                i 2023, med et tydelig formål for øye: å tilby førsteklasses
-                diagnostisering og tuningtjenester for biler. Med omfattende
-                erfaring fra tidligere engasjementer og prosjekter, er Andersen
-                dedikert til å frembringe arbeid av eksepsjonell kvalitet, som
-                ikke bare innfrir, men overgår kundenes forventninger.
+              Jimmy Nicklas Andersen etablerte Andersen Elektro Mekaniske (AEM) i 2023, 
+              drevet av en brennende interesse for faget, 
+              en voksende kundebase, og rik erfaring fra tidligere prosjekter. 
+              Andersen forplikter seg til å tilby sine kunder toppmoderne diagnostisering 
+              og tuning av biler, med mål om å levere arbeid som er av eksepsjonell kvalitet. 
+              Dette arbeidet streber ikke bare etter å møte, men også overgå kundenes forventninger.
               </p>
             </div>
           </section>
@@ -70,10 +70,10 @@ function AEM() {
               </h1>
               <p className="mb-0">
                 Med en imponerende samling av tuningverktøy av ypperste
-                kvalitet, er Jimmy Nicklas Andersen i stand til å tilby
+                kvalitet, er Andersen i stand til å tilby
                 presisjonsmessig tuning av biler fra årgang 1990 og nyere. Hans
                 ekspertise og bruk av avansert utstyr sikrer at hver bil blir
-                optimalisert for å møte dagens krav til ytelse og effektivitet,
+                optimalisert for å møte dagens krav til ytelse og effekt,
                 uavhengig av merke eller modell.
               </p>
             </div>

@@ -17,7 +17,7 @@ function Contact() {
             <p>
               Jeg forplikter meg til å svare på alle henvendelser med høyeste
               prioritet. Takk for at du velger AEM, jeg ser frem til å høre fra
-              deg! 😄
+              deg! 
             </p>
           </div>
           <section

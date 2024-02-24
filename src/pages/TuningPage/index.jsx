@@ -17,13 +17,13 @@ function Tuning() {
 >
               Tuning
               <span className="ms-3">
-                <FontAwesomeIcon icon={faUncharted} />
+                <FontAwesomeIcon icon={faUncharted} style={{marginBottom:"-5px"}}/>
               </span>
             </h1>
           </div>
           <div className="text-light p-4 p-md-5 pt-md-0 fw-light">
             <p>
-              Chip tuning, også kjent som ECU-omprogrammering, er en prosess som
+              Tuning, også kjent som Chip tuning, er en prosess som
               endrer programvaren i bilens motorstyringsenhet for å forbedre
               ytelsen.
             </p>
