@@ -16,11 +16,11 @@ function Home() {
             }}>
             <div id="overlay"></div>
             <div id="content">
-              <h1 className="text-light display-4 px-4 px-md-5">
+              <h1 className="text-light display-5 px-4 px-md-5">
                 Opplev Gleden av Optimalisert Ytelse
               </h1>
               <Nav.Link as={Link} to="/tuning">
-                <button className="btn btn-info text-light p-3 w-75 text-start px-4">
+                <button className="btn btn-info text-light p-3 w-75 text-start px-4 fw-bold">
                   Mer om Tuning
                   <span>
                     <FontAwesomeIcon className="ms-2" icon={faAnglesRight} />
@@ -52,11 +52,11 @@ function Home() {
             }}>
             <div id="overlay"></div>
             <div id="content">
-              <h1 className="text-light display-4 px-4 px-md-5">
+              <h1 className="text-light display-5 px-4 px-md-5">
                 Presis Feilsøking, Rask Løsning
               </h1>
               <Nav.Link as={Link} to="/feilsøking">
-                <button className="btn btn-info text-light p-3 w-75 text-end px-4">
+                <button className="btn btn-info text-light p-3 w-75 text-end px-4 fw-bold">
                   Mer om Feilsøking
                   <span>
                     <FontAwesomeIcon className="ms-2" icon={faAnglesRight} />

@@ -5,21 +5,24 @@ import { faClockRotateLeft, faGear } from "@fortawesome/free-solid-svg-icons";
 function AEM() {
   return (
     <>
-      <main id="AEM">
-        <h1 className="bg-secondary text-white mb-0 p-5 pb-0 display-3">
+<main id="AEM">
+  <div className="ps-xl-5 bg-secondary ">
+        <h1 className="bg-secondary text-white mb-0 p-5 display-5 dashedUnderline" style={{ textUnderlineOffset: "20px" }}>
           Om AEM
         </h1>
+        </div>
+        
         <section
           id="hero"
-          className="d-sm-flex align-items-sm-stretch bg-secondary ">
-          <div className="order-2 col-sm-6 col-lg-8 flex-grow-1 p-5 pb-3 pb-sm-5 bg-secondary">
+          className="d-sm-flex align-items-sm-stretch bg-secondary justify-content-envely ">
+          <div className="order-2 col-sm-6 col-lg-auto flex-grow-1 p-5 pt-0 pb-3 pb-sm-5 bg-secondary">
             <img
               src={`${process.env.PUBLIC_URL}/images/andersen.png`}
               alt="profile photography"
               id="profileImg"
             />
           </div>
-          <div className="bg-secondary text-light order-1 col-sm-6 col-lg-4 flex-grow-1 p-5 pt-4 pt-sm-5 pe-sm-0 d-flex flex-column justify-content-center">
+          <div className="bg-secondary text-light order-1 col-sm-6 col-lg-4 flex-grow-1 p-5 pt-4 pt-sm-5 pe-sm-0 ms-xl-5 d-flex flex-column justify-content-center">
             <h2 className="d-flex mb-3 fs-2 fw-light">
               Jimmy Nicklas Andersen
             </h2>
@@ -39,7 +42,7 @@ function AEM() {
             id="history"
             className="bg-black text-light px-5 pb-4 pb-md-0">
             <div className="mx-auto py-md-4">
-              <h2 className="fs-1 fw-light mb-3">
+              <h1 className="fs-2 fw-light mb-3">
                 Historie
                 <span>
                   <FontAwesomeIcon
@@ -48,7 +51,7 @@ function AEM() {
                     size="1x"
                   />
                 </span>
-              </h2>
+              </h1>
               <p className="mb-0">
                 Jimmy Nicklas Andersen grunnla Andersen Elektro Mekaniske (AEM)
                 i 2023, med et tydelig formål for øye: å tilby førsteklasses
@@ -61,10 +64,10 @@ function AEM() {
           </section>
           <section id="expertise" className="bg-black text-light px-5">
             <div className="mx-auto py-md-4">
-              <h2 className="fs-1 fw-light mb-3">
+              <h1 className="fs-2 fw-light mb-3">
                 Ekspertise
                 <FontAwesomeIcon className="ms-3" icon={faGear} size="1x" />
-              </h2>
+              </h1>
               <p className="mb-0">
                 Med en imponerende samling av tuningverktøy av ypperste
                 kvalitet, er Jimmy Nicklas Andersen i stand til å tilby
@@ -77,6 +80,8 @@ function AEM() {
           </section>
         </div>
       </main>
+
+
     </>
   );
 }
