@@ -13,7 +13,8 @@ function Tuning() {
         }}>
         <div id="content">
           <div className="p-4 p-md-5 pb-2 pb-md-4">
-            <h1 className="text-light display-4 dashedUnderline">
+            <h1 className="text-light display-4 dashedUnderline" style={{ textUnderlineOffset: "20px" }}
+>
               Tuning
               <span className="ms-3">
                 <FontAwesomeIcon icon={faUncharted} />

@@ -8,7 +8,7 @@ function Contact() {
       <main id="contact">
         <div className="text-light p-4 p-sm-5 bg-secondary ">
           <div id="contactInfo" className="px-4 px-lg-5 pb-sm-4 lh-lg">
-            <h1 className="display-5 mb-4 mb-sm-5 bg-secondary">Kontakt</h1>
+            <h1 className="display-5 mb-4 mb-sm-5 bg-secondary dashedUnderline" style={{ textUnderlineOffset: "20px" }}>Kontakt</h1>
             <p>
               Kontakt meg gjerne på epost eller telefon ved eventuelle spørsmål,
               ytterligere informasjon eller for å avtale en
